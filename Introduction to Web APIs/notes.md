@@ -36,8 +36,17 @@ The response from the API is displayed in JSON format, which can be expanded and
 Essential for understanding how to work with an API, including what it does and the type of data it provides.
 Endpoints are the URLs that connect you to specific data options within the API, similar to different sections of a menu.
 Parameters are used to filter and define the response you get from an API, added to the URL after a question mark.
+---
 
+#### Working with API
 
+* Parameters in an API URL can be used to filter and organize the data we receive.
+* We can add parameters to the URL using either forward slashed or a question mark followed by the parameter name, an equal sign, and its value.
+* Multiple parameter can be chained together using the ampersant symbol (&)
+
+**Access data in the response**
+* JSON data is displayed in key-value paris, and we can access specific properties using dot notation.
+* To access a specific item in an array, use the index number in square brackets.
 
 
 
