@@ -48,6 +48,16 @@ Parameters are used to filter and define the response you get from an API, added
 * JSON data is displayed in key-value paris, and we can access specific properties using dot notation.
 * To access a specific item in an array, use the index number in square brackets.
 
+#### Error Handling and Security
+
+**Response status codes:** These codes provide information about the status of your API requests. They are grouped into four categories:
+* **200s:** Indicate successful requests. For example, a status code of 200 means the request was received and processed without any issues.
+* **300s:** Indicate redirection. For example, a status code of 301 means the resource has been permanently moved to a new URL.
+* **400:** Indicate client-side errors. For example, a status code of 404 means the requested resource was not found, often due to an incorrect URL.
+* **500:** Indicate server-side errors. For example, a status code of 500 means there was an internal server error.
+
+Postman is a helpful tool for testing and diagnosing API requests. It allows you to see the status codes and responses, making it easier to identify and fix issues.
+
 
 
 
